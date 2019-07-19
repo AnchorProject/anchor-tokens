@@ -16,6 +16,8 @@ $ npm run testrpc
 $ npm run test
 ```
 
+# Contracts ecosystem details
+
 ```
 ./EToken2 folder contains following 6 contracts as a single, standalone files for easier compilation.
 
