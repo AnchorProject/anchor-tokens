@@ -16,6 +16,7 @@ $ npm run testrpc
 $ npm run test
 ```
 
+```
 ./EToken2 folder contains following 6 contracts as a single, standalone files for easier compilation.
 
 EToken2.sol ByteCode identical with deployed 0x331d077518216c07C87f4f18bA64cd384c411F84 contract, verified on etherscan.io
@@ -25,7 +26,7 @@ EventsHistory.sol ByteCode identical with deployed 0x60bf91ac87fEE5A78c28F7b6770
 RegistryICAP.sol ByteCode identical with deployed 0x96a51938CFB22565E0d40694Fe103675c63AE218 contract, verified on etherscan.io
 MultiAssetEmitter.sol ByteCode identical with deployed 0x4E8703a59FEc01A97d4d2D76271E4F086dbB52Fc contract, verified on etherscan.io
 
-```
+
 EToken2 is the main asset platform.
     It talks to EventsHistory to store events, which in turn asks MultiAssetEmitter and EToken2Emitter for event definitions.
         EventsHistory uses Ambi for admin access checks, admin is Ambisafe.
